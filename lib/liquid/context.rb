@@ -149,6 +149,7 @@ module Liquid
         subcontext.errors   = errors
         subcontext.warnings = warnings
         subcontext.disabled_tags = @disabled_tags
+        subcontext.registers.static[:cached_partials] ||= {}
       end
     end
 

@@ -1,5 +1,12 @@
 # Liquid Change Log
 
+## 6.0.0 (unreleased)
+
+### Fixes
+
+### Breaking Changes
+* `PartialCache` now shares snippet cache with subcontexts by default (#1553) [Chris AtLee]
+
 ## 5.3.0 2022-03-18
 
 ### Fixes
